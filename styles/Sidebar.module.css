@@ -1,0 +1,32 @@
+.sidebar{
+    background-color: #eeee;
+    
+    min-width: 12rem;
+    height: 100%;
+  }
+
+  .firstdiv{
+      width: 100%;
+      height: 4rem;
+      background-color: rgb(219, 195, 195);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid rgb(206, 182, 182);
+  }
+  .smallcircle{
+    margin: 2px 2px;
+    background: lightblue;
+    border-radius: 50%;
+    height: 70%;
+    width: 2rem;
+  }
+  .seconddiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .seconddiv Button{
+    color: rgb(90, 99, 233);
+    padding: 1rem;
+  }
